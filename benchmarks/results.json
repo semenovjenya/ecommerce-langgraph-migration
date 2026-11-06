@@ -1,0 +1,28 @@
+{
+  "measurement": "UTF-8 bytes of canonical JSON",
+  "data": "deterministic synthetic fixtures",
+  "scope": "evidence section only; not full prompt, token cost, latency or analytical quality",
+  "cases": [
+    {
+      "case": "repeated_daily_rows",
+      "original_bytes": 147132,
+      "compact_bytes": 35276,
+      "reduction_percent": 76.02,
+      "roundtrip_exact": true
+    },
+    {
+      "case": "nested_evidence",
+      "original_bytes": 51881,
+      "compact_bytes": 16930,
+      "reduction_percent": 67.37,
+      "roundtrip_exact": true
+    },
+    {
+      "case": "heterogeneous_control",
+      "original_bytes": 38,
+      "compact_bytes": 38,
+      "reduction_percent": 0.0,
+      "roundtrip_exact": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "method": "run.start",
+  "params": {
+    "assistant_id": "commerce_agent",
+    "config": {
+      "configurable": {
+        "thread_id": "00000000-0000-4000-8000-000000000001"
+      }
+    },
+    "input": {
+      "messages": [
+        {
+          "type": "human",
+          "content": "safe question",
+          "id": "probe-message",
+          "additional_kwargs": {},
+          "response_metadata": {}
+        }
+      ]
+    }
+  }
+}
